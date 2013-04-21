@@ -7,6 +7,6 @@ Vagrant.configure("2") do |config|
   config.vm.box_url = "http://files.vagrantup.com/precise32.box"
 
   config.vm.network :forwarded_port, guest: 7474, host: 7474
-  config.vm.provision :shell, :path => "install_neoj.sh"
+  config.vm.provision :shell, :path => "install_Neo4j.sh"
 
 end
