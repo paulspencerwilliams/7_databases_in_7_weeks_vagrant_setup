@@ -11,12 +11,7 @@ sudo mkdir /etc/redis
 sudo mv redis.conf /etc/redis/redis.conf
 sudo vi /etc/redis/redis.conf 
 cd src/
-wget https://raw.github.com/gist/1053791/880a4a046e06028e
-160055406d02bdc7c57f3615/redis-server
-ls
 wget https://raw.github.com/gist/1053791/880a4a046e06028e160055406d02bdc7c57f3615/redis-server
-ls
-ls redis-server
 sudo mv redis-server.1 /etc/init.d/redis-server
 sudo mv redis-cli /etc/init.d/redis-cli
 sudo chmod +x /etc/init.d/redis-server
