@@ -30,3 +30,4 @@ sudo update-rc.d redis-server defaults
 sudo /etc/init.d/redis-server start
 cd /etc/init.d/
 ./redis-cli 
+http://blog.hemantthorat.com/install-redis-2-6-on-ubuntu/
