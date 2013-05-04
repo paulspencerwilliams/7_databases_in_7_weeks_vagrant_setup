@@ -34,3 +34,5 @@ apt-get -y install python-software-properties python g++ make
 add-apt-repository -y ppa:chris-lea/node.js
 apt-get update
 apt-get -y install nodejs
+
+npm install hiredis redis csv
