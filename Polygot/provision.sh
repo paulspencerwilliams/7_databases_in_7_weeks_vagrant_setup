@@ -36,3 +36,4 @@ apt-get update
 apt-get -y install nodejs
 
 npm install hiredis redis csv
+apt-get install couchdb -y
